@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Basics 3</title>
     <style>
-        table,tr,th,td{
+        table,
+        tr,
+        th,
+        td {
             border: 1px solid black;
             border-collapse: collapse;
         }
-        thead{
+
+        thead {
             background-color: blue;
         }
-        tbody{
+
+        tbody {
             background-color: aquamarine;
         }
     </style>
 </head>
+
 <body>
-    <table>
-        <!-- <colgroup>
+    <!-- <table>
+        <colgroup>
             <col span="3" style="background-color: white;">
             <col span="1" style="visibility: collapse;">
-        </colgroup> -->
+        </colgroup>
         <thead>
             <tr>
                 <th rowspan="3">
@@ -76,7 +83,45 @@
             </tr>
         </tbody>
         
-    </table>
-    
+    </table> -->
+    <form action="">
+        <label for="fullName">Name </label>
+        <input type="text" name="fullName" placeholder="Enter you name">
+        <br><br>
+        <label for="email">Email </label>
+        <input type="email" name="email" placeholder="Enter you Email">
+        <br><br>
+        <label for="number">Contact Number </label>
+        <input type="number" name="number" placeholder="Enter you Number">
+        <br><br>
+        <label for="gender">Gender </label>
+        <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <label for="dob">Date of birth </label>
+        <input type="date" name="dob">
+        <br><br>
+        <label for="rating">Rating </label>
+        <input type="radio" name="rate">
+        <label for="rate">1</label>
+        <input type="radio" name="rate">
+        <label for="rate">2</label>
+        <input type="radio" name="rate">
+        <label for="rate">3</label>
+        <input type="radio" name="rate">
+        <label for="rate">4</label>
+        <input type="radio" name="rate">
+        <label for="rate">5</label>
+        <br><br>
+        <label for="msg">Enter you message </label><br>
+        <textarea name="msg" id="" cols="30" rows="10" placeholder="Enter you message"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
 </body>
+
 </html>
