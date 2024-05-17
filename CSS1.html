@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Class 1</title>
     <style>
-        p {
+        /* p {
             color: red;
             font-size: large;
         }
@@ -28,9 +28,45 @@
         }
         #submitButton:hover{
             color: seagreen;
+        } */
+        body {
+            margin: 0;
+        }
+
+        .box {
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 10px;
+            /* padding: 10px; */
+            box-sizing: border-box;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+        }
+
+        #orng {
+            background-color: rgb(255, 94, 35);
+            width: 1%;
+           
+        }
+
+        #wht {
+            background-color: #ffffff;
+        }
+
+        #grn {
+            background-color: green;
+            font-size: 0.5em;
+        }
+        #internal{
+            width: 50%;
+            height: 50%;
+            overflow: hidden;
         }
     </style>
-        <link rel="stylesheet" href="CSS1.css">
+    <link rel="stylesheet" href="CSS1.css">
 
 </head>
 
@@ -57,7 +93,24 @@
     </h6> -->
     <!-- <button id="submitButton">Submit</button> -->
 
-    <h1>This is external css</h1>
+    <!--<h1>This is external css</h1> -->
+
+    <h1>INDIA</h1>
+
+    <div class="box" id="orng">A</div>
+    <div class="box" id="whst">B
+        <div id="internal">Lorem ipsum dolor sit amet.</div>
+    </div>
+    <div class="box" id="grn">C Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem et reiciendis tempore
+        perferendis quod, eos debitis, nobis fuga rerum, voluptas eum eaque explicabo suscipit fugit quaerat nam. Saepe
+        voluptate voluptatibus nobis reprehenderit commodi, dolore sapiente! Ex, nulla ratione impedit quisquam
+        consectetur aliquid et ab repellendus possimus? Velit cumque, cum illum, autem aliquid ea delectus neque eveniet
+        recusandae expedita nihil magni iure. Ab neque quasi illum assumenda soluta quod vero ea laudantium modi
+        accusantium, nam ipsa itaque ad minima commodi iure mollitia provident expedita! Maiores voluptatibus amet
+        praesentium commodi, nihil illum? Itaque in quasi soluta maiores quo, nam quisquam atque saepe.</div>
+    
+
+
 </body>
 
 </html>
