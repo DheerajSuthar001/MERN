@@ -1,0 +1,50 @@
+.linear{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(red,blue);
+    /* background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to top,red,blue);
+    background-image: linear-gradient(to top right,red,blue);
+    background-image: linear-gradient(90deg,red,blue); */
+}
+.radial{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(red 30%,blue 70%);
+}
+.conic{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red,orange,yellow,green,blue);
+}
+h1{
+    text-shadow: 1px 1px 1px aqua;
+    text-shadow: 1px 1px 1px aqua,2px 2px 2px blue;
+}
+.box-shadow{
+    
+    height: 200px;
+    width:200px;
+    /* border:1px solid black; */
+    background-color: aqua;
+    box-shadow: -1px -1px ,1px 1px ;
+}
+.dimension{
+    height: 20px;
+    border: 1px solid black;
+    overflow: auto;
+}
+.transform2d{
+        width: 100px;
+        border: 1px solid black;
+        background-color: aquamarine;
+        margin: 100px;
+        /* transform: translate(100px,10px); */
+        /* transform:rotate(45deg) ;*/
+        /* transform:scale(3,6); */
+        /* transform:skew(-10deg); */
+        transform: matrix(2,0.5,1,1,10,10);
+}
