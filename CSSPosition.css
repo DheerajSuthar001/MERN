@@ -1,0 +1,27 @@
+#wrapper{
+    width:1000px;
+    height:2000px
+}
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+#box3{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+#box1{
+    position: fixed;
+}
+#box2{
+    position: absolute;
+    top: 300px;
+}
+#box4{
+    position: sticky;
+    top: 100px;
+}
