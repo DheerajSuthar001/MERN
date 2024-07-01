@@ -1,27 +1,35 @@
-#wrapper{
-    width:1000px;
-    height:2000px
-}
-.box{
-    display: inline-block;
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
-    background-color: aquamarine;
-}
-#box3{
+.wrapper{
     position: relative;
-    top: 10px;
-    left: 40px;
+    height:50vh;
+    width: 50vw;
+    background-color: blueviolet;
+}
+.Box{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color:aqua;
 }
 #box1{
-    position: fixed;
+    position: absolute;
 }
 #box2{
     position: absolute;
-    top: 300px;
+    right: 0px;
 }
+ #box3{
+    position: absolute;
+    bottom: 0px;
+    
+ }
 #box4{
-    position: sticky;
-    top: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#box5{
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
