@@ -1,0 +1,55 @@
+/* :root{
+    --dark-maroon:#581c1c;
+} */
+ *{
+    --dark-maroon:#581c1c;
+ }
+.container{
+    border: 1px solid black;
+    background-color:var(--dark-maroon);
+    height: 600px;
+    width: calc(100% - 100px);
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+    background-color: rgb(62, 185, 113);
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    color: var(--dark-maroon);
+    /* transition-property: background-color;
+    transition-delay: 5s; */
+    /* transition: 1s; */
+    /* transition: transform 2s ease 0s; */
+    animation-name: dheeraj;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+    animation-direction:alternate;
+}
+@keyframes dheeraj {
+    /* from{
+        width: 150px;
+    }
+    to{
+        width: 300px;
+    } */
+     0%{
+        width: 100px;
+        
+     }
+     30%{
+        width: 30%;
+        background-color: orange;
+     }
+     60%{
+        width: 60%;
+        background-color: white;
+     }
+     100%{
+        width: 100%;
+        background-color: green;
+     }
+}
