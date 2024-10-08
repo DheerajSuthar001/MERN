@@ -7,17 +7,18 @@
 //     }
 // }
 // //factory function
-// function createRectangle( height,width){
-//     return rectangle={
-//         height,
-//         width,
-//         draw:function(){
-//             console.log(this.height*this.width);
-//         }
-//     }
-// }
-// let ob=createRectangle(4,6);
-// console.log(ob.draw());
+function createRectangle( height,width){
+    return {
+        height,
+        width,
+        draw:function(){
+            console.log(this.height*this.width);
+            return null;
+        }
+    };
+}
+let ob=createRectangle(4,6);
+console.log(ob.draw());
 
 //constructor function
 // function Rectangle(length,breadth){
@@ -85,10 +86,10 @@
 //     console.log(key, rectangle[key]);
 // }
 
- let rectangle={
-    length:2,
-    breadth:4
-}
+//  let rectangle={
+//     length:2,
+//     breadth:4
+// }
 
 // if('length' in rectangle)
 //     console.log('present');
@@ -105,7 +106,7 @@
 // method2
 // let obj=Object.assign({},rectangle);
 
-// method2
-let obj={...rectangle};
-console.log(obj);
+// method3
+// let obj={...rectangle};
+// console.log(obj);
 
