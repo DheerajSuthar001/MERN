@@ -1,4 +1,4 @@
-console.log("NaMASTE dUNIYA");
+// console.log("NaMASTE dUNIYA");
 // {
 //     let a=23 ;
 // }
@@ -35,11 +35,29 @@ console.log("NaMASTE dUNIYA");
 
 // console.log(false && true );
 
-for(let i=1;i<5;i++){
-    console.log('dheeraj');
-}
-let i=0;
-while(i<5){
-    console.log('dheeraj'+ ++i);
+// for(let i=1;i<5;i++){
+//     console.log('dheeraj');
+// }
+// let i=0;
+// while(i<5){
+//     console.log('dheeraj'+ ++i);
     
+// }
+
+// let a ='dheeraj';
+// console.log(a);
+// var b=4;
+// var b='dheeraj';
+// console.log(b);
+// let a={
+//     name:'DHeeraj',
+//     age:27
+// };
+// console.log(a['age']);
+let arr=[1,'dheeraj',true];
+arr[2]='true';
+console.log(arr[2]);
+let a=4;
+if(true && undefined && console.log(5) ){
+
 }
